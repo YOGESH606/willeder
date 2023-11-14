@@ -1,0 +1,72 @@
+@import '../../index.scss';
+
+.details{
+    position: relative;
+    padding: 200px 0;
+    background: #DCE1E6;
+
+    .column{
+        position: absolute;
+        width: 280px;
+        inset: 0;
+        background-color: #6A45FF;
+        z-index: 0;
+        margin: auto;
+    }
+
+    .details__content{
+        display: flex;
+        flex: 1;
+        margin-left: 90px;
+
+        .details__card-img{
+            background: url('../../images/img4.png') center/cover no-repeat;
+            height: 440px;
+            z-index: 2;
+            position: relative;
+            width: 50%;
+        }
+
+        .details__card-content{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            z-index: 2;
+            background: #DCE1E6;
+            width: 40%;
+            padding: 0 100px;
+    
+            .heading{
+                @include p__NotoSans-heading;
+                color: #000;  
+                width: 100%;
+                border-bottom: 8px solid #6A45FF;
+            }
+            .content{
+                @include p__NotoSans-content;
+                color: rgba(0, 0, 0, 0.80);
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%; 
+                letter-spacing: 0.8px;
+                margin: 32px 0 64px;
+            }
+            .card_footer{
+                @include p__NotoSans-content;
+                color: #000;
+                text-align: center;
+                font-size: 16px;
+                letter-spacing: 4.8px;
+            }
+            p{
+                display: inline;
+            }
+            button{
+                margin: 0px 20px;
+            }
+        }
+    }
+
+}

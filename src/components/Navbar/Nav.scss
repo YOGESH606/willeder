@@ -1,0 +1,34 @@
+@import '../../index.scss';
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 80px;
+    height: 64px;
+
+    .nav__logo{
+        text-align: center;
+        display: flex;
+    }
+
+    .nav__logo_txt{
+        @include p__Revalia-logo_txt;
+        color: #000;
+        text-align: center;
+       
+    }
+
+    .nav__Link{
+        @include flex__center;  
+        @include p__NotoSans-content;
+        font-size: 16px;
+        justify-content: space-between;
+        width: 30%;
+ 
+    }
+
+    .nav__carousel{
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,55 @@
+@import '../../index.scss';
+
+.footer{
+    background: #5D6273;
+    padding: 80px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+
+    .footer__footerLinks{
+        @include p__NotoSans-content;
+        @include flex__center;
+        letter-spacing: 4.8px;
+        width: 100%;   
+
+        p{
+            padding: 0 96px;
+        }     
+    }
+
+    .footer__line{
+        border-bottom:3px solid rgb(255, 255, 255);
+        width: 100%;
+        margin: 56px 0 24px;
+
+    }
+
+    .footer__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+        .icon{
+            font-size: 30px;
+            color: #5D6273;
+            background-color: white;
+            padding: 10px 10px 5px;
+            border-radius: 50%;
+            margin: 0 20px;
+        }
+    }
+
+    .footer__stamp{
+        @include p__NotoSans-content;
+        margin-top: 56px;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.6px;
+        color: rgba(255, 255, 255, 0.80);
+    }
+}

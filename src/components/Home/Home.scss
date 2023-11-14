@@ -1,0 +1,60 @@
+@import '../../index.scss';
+
+.home{
+    @include flex__center;
+    position: relative;
+    background: url('../../images/home.png') center/cover no-repeat;
+    width: 100%;
+    height: 93vh;
+    padding-top: 278px;
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0,0,0,0.6);
+    }
+
+    .home__content{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: white;
+        text-align: center;
+        
+        .home__content-logo{
+            @include flex__center;
+            text-align: center;
+            margin-bottom: 30px;
+
+            .home__content-logo_txt{
+                @include p__Revalia-logo_txt;
+                font-size: 78px;
+                line-height: 171%; 
+                letter-spacing: 37.44px;
+                padding: 0 20px;
+            }
+        }
+        
+        .p__content-heading{
+            @include p__NotoSans-heading;
+            background-color: #6A45FF;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .p__content-content{
+            @include p__NotoSans-content;
+            padding: 0 160px;
+        }
+    }
+}
+
+
+
