@@ -3,10 +3,9 @@ import './Cards.scss'
 
 const Cards = () => {
   return (
-    <div className='cards__wrapper'>
-      <div className="column">
-        
-      </div>
+    <div className='cards__wrapper' id='page1'>
+      <div className="column1"></div>
+
       <div className="cards__heading">
           <h1>Lorem</h1>
           <h2>subtitle</h2>
@@ -18,7 +17,7 @@ const Cards = () => {
           <div className="card">
             <p className='card__no'>01</p>
             <p className='card__heading'>Lorem ipsum dolor sit amet.</p>
-            <p className='card__content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, maxime!</p>
+            <p className='card__content'>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
           </div> 
         </div>
 
@@ -26,7 +25,7 @@ const Cards = () => {
         <div className="card">
             <p className='card__no'>01</p>
             <p className='card__heading'>Lorem ipsum dolor sit amet.</p>
-            <p className='card__content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, maxime!</p>
+            <p className='card__content'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
 
@@ -34,7 +33,7 @@ const Cards = () => {
         <div className="card">
             <p className='card__no'>01</p>
             <p className='card__heading'>Lorem ipsum dolor sit amet.</p>
-            <p className='card__content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, maxime!</p>
+            <p className='card__content'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </div>

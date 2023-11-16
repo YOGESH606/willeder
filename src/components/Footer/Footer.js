@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
 
       <p className="footer__stamp">
-        Logo, Inc
+        &copy; Logo, Inc.e
       </p>
 
     </div>
