@@ -22,9 +22,9 @@ const Nav = () => {
               <IoClose />
             </div>
             <div className='overlay__links'>
-                <a href="#">Home</a>
-                <a href="#">Page 1</a>
-                <a href="#">Page 2</a>
+                <a href="#home">Home</a>
+                <a href="#home">Page 1</a>
+                <a href="#home">Page 2</a>
               </div>
           </div>
         </div>
@@ -35,9 +35,9 @@ const Nav = () => {
             <p className='nav__logo_txt'>LOGO</p>
         </div>
           <div className='nav__Link'>
-            <a href="#">Home</a>
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
+            <a href="#home">Home</a>
+            <a href="#home">Page 1</a>
+            <a href="#home">Page 2</a>
           </div>
           <div className='nav__carousel' onClick={handleClick}>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
